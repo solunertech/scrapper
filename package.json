@@ -1,0 +1,32 @@
+{
+  "name": "@solunertech/scrapper",
+  "version": "1.0.2",
+  "description": "NestJS module and standalone utility to extract formatted visible text from web pages using Puppeteer.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nestjs",
+    "puppeteer",
+    "web scraping",
+    "text scraper",
+    "n8n",
+    "visible text"
+  ],
+  "author": "Suraj S. suraj.shuklasts@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "puppeteer": "^24.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+   "repository": {
+        "type": "git",
+        "url": "git+https://github.com/solunertech/scrapper.git"
+    }
+}
